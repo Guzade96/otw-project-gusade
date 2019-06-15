@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+
+
+
+
+
+.text {
+	color: white;
+	font-family: 'Courgette', cursive;
+	top: 50%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+
+body{
+	background-color: #69d2e7;
+}
+
+
+
+
+.gegeh{
+	width: 250px;
+	border-radius:50%;
+	z-index: 9;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 250px;
+	margin-top:60px;
+	box-shadow: 10px 1px 10px 1px black;
+}
+
+
+.sejarah{
+	margin-top: 75px;
+	width: 350px;
+
+}
+
+.kontol img{
+	margin-left: 200px;
+	width: 350px;
+	position:relative;
+	bottom: 50px;
+	height: 250px;
+
+
+}
+
+.navbar{
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	width: 100%;
+	z-index: 999999999;
+	font-family: 'Courgette', cursive;
+	
+}
+html{
+	scroll-behavior: smooth;
+}
+
+
+.gambar{
+	background:url(2.jpg);
+	height: 500px;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.blok{
+	background-color:orange;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.his{
+	background-color:orange;
+	display: inline-block;
+	position: relative;
+	
+}
+.lok{
+	background-color:orange;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	
+}
+
+
+.animal{
+	animation-name: anikontol;
+	animation-duration:1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+#footer{
+	background-color: orange;
+}
+.ml{
+	width: 300px;
+	position:relative;
+	animation-name: ml;
+	animation-direction: alternate;
+	animation-duration: 999999s;
+	animation-iteration-count: infinite;
+}
+.ngewe{
+	width: 280px;
+	margin-left: 200px;
+	animation-name: ngewe;
+	animation-direction: alternate;
+	animation-duration: 999999s;;
+	animation-iteration-count: infinite;
+}
+.info{
+	margin-left: 300px;
+}
+.end{
+	background-color: grey;
+	padding-bottom: 20px;
+}
+
+}
+
+
+@keyframes anikontol{
+	from{
+		color: white;
+		
+	}
+	to{
+		color: orange;
+		
+	}
+}
+
+
+@keyframes ml{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(99999999deg);
+		}
+			}
+	@keyframes ngewe{
+			from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(99999999deg);
+	}
+	}
+	
